@@ -15,7 +15,7 @@ import {
   IonToolbar,
 } from '@ionic/angular/standalone';
 import { addIcons } from 'ionicons';
-import { appsOutline } from 'ionicons/icons';
+import { appsOutline, options } from 'ionicons/icons';
 
 @Component({
   selector: 'app-home',
@@ -40,7 +40,7 @@ import { appsOutline } from 'ionicons/icons';
 })
 export class HomePage implements OnInit {
   constructor() {
-    addIcons({ appsOutline });
+    addIcons({ appsOutline, options});
   }
 
   ngOnInit() {}
