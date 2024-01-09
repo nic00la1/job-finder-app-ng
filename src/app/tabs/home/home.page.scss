@@ -1,0 +1,12 @@
+ion-header {
+  ion-toolbar {
+    --padding-start: 1.5vh;
+    --padding-end: 1.5vh;
+    ion-title {
+      img {
+        height: 6vh;
+        width: 6vh;
+      }
+    }
+  }
+}
