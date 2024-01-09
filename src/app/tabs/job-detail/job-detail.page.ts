@@ -101,7 +101,7 @@ export class JobDetailPage implements OnInit {
         location: 'Gdańsk, Pomeranian Voivodeship',
         expires_on: '15/12/23',
         post: 'Lead UX Designer',
-        type: 'Full Time',
+        type: 'Part Time',
         salary: 'PLN 11K/mo',
         logo_dark: 'linkedin_dark.png',
         logo_light: 'linkedin_light.png',
