@@ -50,7 +50,6 @@
       </ion-segment-button>
       <ion-segment-button value="reviews">
         <ion-label>Reviews</ion-label>
-        
       </ion-segment-button>
     </ion-segment>
   </ion-row>
@@ -79,7 +78,7 @@
     <ul>
       @for (desc of job.description; track $index) {
       <li>
-        <ion-text color="medium">{{desc}}</ion-text>
+        <ion-text color="medium">{{job.about_the_job}}</ion-text>
       </li>
       }
     </ul>

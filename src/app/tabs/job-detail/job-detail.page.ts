@@ -75,6 +75,8 @@ export class JobDetailPage implements OnInit {
         description: [
           '3 or more years of UX design experience. Preference will be given to candidates who have experience designing engaging and interactive solutions.',
         ],
+        about_the_job:
+          'In this position, you will be responsible for creating engaging and interactive designs for our platform. You will work with other designers and product managers to create user-centered designs.',
       },
       {
         id: 2,
@@ -90,6 +92,8 @@ export class JobDetailPage implements OnInit {
         description: [
           '5 or more years of experience needed as a Senior developer in Full Stack. Preference will be given to candidates who have experience designing complex solutions and working in a fast-paced environment.',
         ],
+        about_the_job:
+          'In this role, you will be responsible for developing and maintaining our web applications. You will work closely with our product and design teams to implement new features and improve existing ones.',
       },
       {
         id: 3,
@@ -105,6 +109,8 @@ export class JobDetailPage implements OnInit {
         description: [
           '4 or more years of UX design experience. Preference will be given to candidates who have experience designing complex solutions for large-scale companies.',
         ],
+        about_the_job:
+          'As a Lead UX Designer, you will guide and mentor a team of designers to create intuitive user interfaces. You will also collaborate with other teams to ensure our designs meet user needs and business goals.',
       },
     ];
 
