@@ -63,14 +63,14 @@ export class JobDetailPage implements OnInit {
     this.jobs = [
       {
         id: 1,
-        company: 'Technyks LLC',
-        location: 'New Delhi',
-        expires_on: '30/11/23',
+        company: 'TikTok',
+        location: 'Warszawa, Masovian Voivodeship',
+        expires_on: '21/02/24',
         post: 'Senior UX Designer',
         type: 'Full Time',
         salary: '$40-90k/year',
-        logo_dark: 'ct_dark.png',
-        logo_light: 'ct_light.png',
+        logo_dark: 'tiktok_dark.png',
+        logo_light: 'tiktok_light.png',
         image: 'ux.jpg',
         description: [
           '3 or more years of UX design experience. Preference will be given to candidates who have experience designing complex solutions.',
@@ -79,10 +79,10 @@ export class JobDetailPage implements OnInit {
       {
         id: 2,
         company: 'Uber Technologies',
-        location: 'Bangalore',
+        location: 'Wrocław Lower Silesian Voivodeship',
         expires_on: '07/12/23',
         post: 'Full-Stack Developer',
-        type: 'Full Time',
+        type: 'Part Time',
         salary: '$30-80k/year',
         logo_dark: 'uber_dark.png',
         logo_light: 'uber_light.png',
@@ -94,7 +94,7 @@ export class JobDetailPage implements OnInit {
       {
         id: 3,
         company: 'LinkedIn Corp.',
-        location: 'Mumbai',
+        location: 'Gdańsk, Pomeranian Voivodeship',
         expires_on: '15/12/23',
         post: 'Lead UX Designer',
         type: 'Full Time',
