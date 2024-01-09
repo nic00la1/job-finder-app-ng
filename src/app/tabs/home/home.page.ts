@@ -19,6 +19,7 @@ import {
 } from '@ionic/angular/standalone';
 import { addIcons } from 'ionicons';
 import { appsOutline, options } from 'ionicons/icons';
+import { JobComponent } from 'src/app/components/job/job.component';
 
 @Component({
   selector: 'app-home',
@@ -41,6 +42,7 @@ import { appsOutline, options } from 'ionicons/icons';
     IonSearchbar,
     IonList,
     IonListHeader,
+    JobComponent,
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })

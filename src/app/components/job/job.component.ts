@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import {
   IonCard,
   IonItem,
@@ -10,6 +10,8 @@ import {
   IonText,
   IonList,
 } from '@ionic/angular/standalone';
+import { addIcons } from 'ionicons';
+import { bookmark } from 'ionicons/icons';
 
 @Component({
   selector: 'app-job',
@@ -29,7 +31,11 @@ import {
   ],
 })
 export class JobComponent implements OnInit {
-  constructor() {}
+  @Input() job: any;
+
+  constructor() {
+    addIcons({ bookmark });
+  }
 
   ngOnInit() {}
 }
