@@ -8,7 +8,6 @@ ion-header {
         width: 6vh;
       }
     }
-
     ion-buttons {
       ion-thumbnail {
         background-color: #fff;
@@ -88,4 +87,25 @@ ion-list {
     align-self: end;
     margin-bottom: 0.8vh;
   }
+}
+
+ion-list.recentJobs {
+  ion-item {
+    margin-left: 1.5vh;
+    margin-right: 1.5vh;
+    border-radius: 10px;
+    ion-label {
+      margin-top: 1.5vh;
+      margin-bottom: 1.5vh;
+    }
+  }
+}
+
+span.dot {
+  margin: 0 2px 2px 2px;
+  height: 3px;
+  width: 3px;
+  background-color: dimgray;
+  border-radius: 50%;
+  display: inline-block;
 }

@@ -1,4 +1,5 @@
 import { CUSTOM_ELEMENTS_SCHEMA, Component, OnInit } from '@angular/core';
+import { RouterModule } from '@angular/router';
 import {
   IonButton,
   IonButtons,
@@ -43,6 +44,7 @@ import { JobComponent } from 'src/app/components/job/job.component';
     IonList,
     IonListHeader,
     JobComponent,
+    RouterModule,
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
